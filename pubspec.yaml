@@ -1,0 +1,36 @@
+name: flutter_text_with_html_tags
+description: A Flutter project for view text with html tags.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+ 
+  cupertino_icons: ^1.0.2  
+  ansicolor: ^2.0.1
+  flutter_html: ^2.1.2
+  url_launcher: ^6.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/
+    - assets/images/
+
+  fonts:
+    - family: Sahel FD
+      fonts:
+        - asset: assets/fonts/Sahel-FD.ttf
